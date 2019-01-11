@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
-
+import (
+        "fmt"
+        "github.com/nf/string"
+)
 func main() { 
-  fmt.Println("Hello, new gpher!!")
+  fmt.Println(string.Reverse("Hello, new gopher!!"))
 }
